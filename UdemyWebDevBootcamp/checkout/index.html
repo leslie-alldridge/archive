@@ -1,0 +1,48 @@
+<html>
+<head><script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="script.js"></script>
+	<script type="text/javascript" src="java.js"></script>
+</head>
+<body>
+	<h1>Basic Checkout Example</h1>
+
+<table id="myTable" class="myTable">
+<tr>   <th width="100">Name </th>
+    <th>Price $</th>
+</tr>
+<tr>
+    <td><input type="text" class='unitname'/></td>
+    <td><input type="text" class='txtCal' /></td>
+</tr>    
+<tr>
+    <td><input type="text" class='unitname'/></td>
+    <td><input type="text" class='txtCal' /></td>
+</tr>  
+<tr>
+    <td><input type="text" class='unitname'/></td>
+    <td><input type="text" class='txtCal' /></td>
+</tr>  
+<tr>
+    <td><input type="text" class='unitname'/></td>
+    <td><input type="text" class='txtCal' /></td>
+</tr>  
+<tr>
+    <td><input type="text" class='unitname'/></td>
+    <td><input type="text" class='txtCal' /> <a name='addmore'>Add more rows..</a></td>
+
+</tr>
+<tr>
+    <td><span><b>TOTAL  :</b></span></td>
+    <td><b><span id="total_sum_value"></span></b></td>
+</tr>
+
+</table>
+
+<button id="Submit" onclick="totalCalc()">Submit Sale</button>
+
+<button id="EndofDay">End of day</button>
+
+
+
+</body>
+</html>
